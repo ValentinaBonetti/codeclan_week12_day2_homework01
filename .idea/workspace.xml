@@ -1,9 +1,726 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="161cc46a-3470-49ba-93fd-d17ef9e8a610" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/IAttack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/IDamage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/buildings/Building.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/buildings/Skyscraper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kaijus/GiantIguana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kaijus/Kaiju.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kaijus/LochNessMonster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vehicles/CarnivalFloat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vehicles/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vehicles/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CarnivalFloatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GiantIguanaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LochNessMonsterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SkyscraperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KaijuAttack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KaijuAttack.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/KaijuAttack$All_in_KaijuAttack.ic" NAME="All in KaijuAttack Coverage Results" MODIFIED="1542738694988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1327117625">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="7" />
+          <entry key="java" value="1826" />
+          <entry key="xml" value="80" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1826" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="XML" value="80" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="15" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kaijus/Kaiju.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kaijus/LochNessMonster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <folding>
+                <element signature="e#81#82#0" expanded="true" />
+                <element signature="e#108#109#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/LochNessMonsterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="42" column="46" lean-forward="true" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#970#971#0" expanded="true" />
+                <element signature="e#1000#1001#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/buildings/Skyscraper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding>
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SkyscraperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/buildings/Building.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kaijus/GiantIguana.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/GiantIguanaTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TankTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CarnivalFloatTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Kaiju.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LochNessTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kaijus/LochNess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behaviours/IAttack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behaviours/IDamage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TankTesgt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vehicles/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vehicles/Tank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vehicles/CarnivalFloat.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TankTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CarnivalFloatTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LochNessMonsterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kaijus/Kaiju.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kaijus/LochNessMonster.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kaijus/GiantIguana.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GiantIguanaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/buildings/Building.java" />
+        <option value="$PROJECT_DIR$/src/main/java/buildings/Skyscraper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SkyscraperTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="827" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="KaijuAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaijuAttack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KaijuAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaijuAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KaijuAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaijuAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KaijuAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaijuAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KaijuAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaijuAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="behaviours" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KaijuAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaijuAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kaijus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KaijuAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaijuAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vehicles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KaijuAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaijuAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KaijuAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaijuAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KaijuAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.All in KaijuAttack">
+    <configuration name="All in KaijuAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KaijuAttack" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GiantIguanaTest.canFly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KaijuAttack" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GiantIguanaTest" />
+      <option name="METHOD_NAME" value="canFly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LochNessMonsterTest.canFly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KaijuAttack" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LochNessMonsterTest" />
+      <option name="METHOD_NAME" value="canFly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SkyscraperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KaijuAttack" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SkyscraperTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SkyscraperTest.canGetDamaged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KaijuAttack" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SkyscraperTest" />
+      <option name="METHOD_NAME" value="canGetDamaged" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.LochNessMonsterTest.canFly" />
+      <item itemvalue="JUnit.GiantIguanaTest.canFly" />
+      <item itemvalue="JUnit.SkyscraperTest" />
+      <item itemvalue="JUnit.SkyscraperTest.canGetDamaged" />
+      <item itemvalue="JUnit.All in KaijuAttack" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in KaijuAttack" />
+        <item itemvalue="JUnit.SkyscraperTest.canGetDamaged" />
+        <item itemvalue="JUnit.SkyscraperTest" />
+        <item itemvalue="JUnit.LochNessMonsterTest.canFly" />
+        <item itemvalue="JUnit.GiantIguanaTest.canFly" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="161cc46a-3470-49ba-93fd-d17ef9e8a610" name="Default Changelist" comment="" />
+      <created>1542733559145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542733559145</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="LochNessMonsterTest_canRevealHealthValue - 2018.11.20 at 17h 58m 30s.xml">
+      <configuration name="LochNessMonsterTest.canRevealHealthValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LochNessMonsterTest_lochNessMonsterCanBeDamaged - 2018.11.20 at 17h 58m 50s.xml">
+      <configuration name="LochNessMonsterTest.lochNessMonsterCanBeDamaged" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LochNessMonsterTest_lochNessMonsterCanAttack - 2018.11.20 at 17h 59m 49s.xml">
+      <configuration name="LochNessMonsterTest.lochNessMonsterCanAttack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GiantIguanaTest - 2018.11.20 at 18h 04m 00s.xml">
+      <configuration name="GiantIguanaTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TankTest_lochNessMonsterCanAttack - 2018.11.20 at 18h 08m 06s.xml">
+      <configuration name="TankTest.lochNessMonsterCanAttack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TankTest_canBeDamaged - 2018.11.20 at 18h 08m 09s.xml">
+      <configuration name="TankTest.canBeDamaged" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarnivalFloatTest_canAttack - 2018.11.20 at 18h 14m 07s.xml">
+      <configuration name="CarnivalFloatTest.canAttack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarnivalFloatTest_canBeDamaged - 2018.11.20 at 18h 14m 10s.xml">
+      <configuration name="CarnivalFloatTest.canBeDamaged" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GiantIguanaTest_canFly - 2018.11.20 at 18h 17m 58s.xml">
+      <configuration name="GiantIguanaTest.canFly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LochNessMonsterTest_canFly - 2018.11.20 at 18h 18m 04s.xml">
+      <configuration name="LochNessMonsterTest.canFly" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="827" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3292517" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3292517" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292517" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3292517" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IAttack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IDamage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vehicles/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vehicles/Tank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vehicles/CarnivalFloat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CarnivalFloatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kaijus/Kaiju.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kaijus/LochNessMonster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="e#81#82#0" expanded="true" />
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kaijus/GiantIguana.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GiantIguanaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LochNessMonsterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="42" column="46" lean-forward="true" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/buildings/Building.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/buildings/Skyscraper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TankTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SkyscraperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
